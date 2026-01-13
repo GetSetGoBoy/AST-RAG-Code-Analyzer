@@ -3,8 +3,11 @@ A static analysis tool that uses AST parsing to audit Python code for security r
 
 # Features
 AST-Based Analysis: Understands code structure rather than just searching for text.
+
 Security Guardrails: Detects dangerous eval() calls to prevent injection attacks.
+
 Quality Control: Identifies poor naming conventions (short function names).
+
 Complexity Check: Flags functions with excessive arguments to promote clean code.
 
 # How It Works
