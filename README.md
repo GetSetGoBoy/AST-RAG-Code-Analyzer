@@ -26,14 +26,17 @@ Reporting: The tool outputs a clean, color-coded report showing the line number,
 # How to Run
 Prerequisites
 Ensure you have Python installed and the following libraries:
+
 python -m pip install langchain-chroma langchain-huggingface sentence-transformers
 
 Step 1: Setup the Knowledge Base
 Before the first run, you must let the "Librarian" read your rules.
+
 python -c "import rag_engine; rag_engine.build_knowledge_base()"
 
 Step 2: Run the Analyzer
 Execute the tool against any Python file (e.g., app_logic.py) to see the results.
+
 python my_tool.py app_logic.py
 
 Step 3: Update Rules (Optional)
