@@ -1,0 +1,5 @@
+Python: eval() is dangerous because it can execute arbitrary code. Use ast.literal_eval() for safety.
+JavaScript: Using .innerHTML can allow Cross-Site Scripting (XSS). Use .textContent instead.
+Java: Hardcoding passwords in strings is a major security risk. Use Environment Variables or Key Vaults.
+C++: The strcpy function does not check buffer limits. Use strncpy to prevent memory crashes.
+General: Always rotate secrets and never commit API keys to version control.
