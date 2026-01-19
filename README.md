@@ -46,13 +46,15 @@ If you want to add new security rules, simply edit security_knowledge.txt and re
 The Security RAG Linter has been rigorously audited using a automated testing suite to ensure the advice provided is technically accurate and relevant to the detected vulnerabilities.
 
 Performance Metrics
+
 Verified Accuracy: The RAG system was audited using the "Context Quality Experiment" protocol via qa_test.py.
 
 Results: Achieved a 5/5 accuracy score on core technical queries (including eval, strcpy, and innerHTML).
 
 Audit Logic: Each test case compares the RAG engine's output against a list of required security keywords (e.g., ensuring ast.literal_eval is recommended for eval()).
 
-📝 Integration Testing
+Integration Testing
+
 The system was further validated by running my_tool.py against app_logic.py, successfully identifying:
 
 Naming Issues: Short variable/function names.
@@ -61,4 +63,4 @@ Functional Complexity: Excessive argument counts.
 
 Security Flaws: Hardcoded secrets and dangerous function calls.
 
-Full Report: For a detailed breakdown of the testing methodology and individual test results, please view the QA_REPORT.md.
+Full Report: For a detailed breakdown of the testing methodology and individual test results, please view the QA Report.md.
