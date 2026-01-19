@@ -1,4 +1,4 @@
-#QA Report: RAG Accuracy Experiment
+# QA Report: RAG Accuracy Experiment
 
 The system was evaluated using two primary methods: unit testing via `qa_test.py` and integration testing via `my_tool.py` against a real-world logic file.
 
